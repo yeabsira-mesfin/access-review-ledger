@@ -1,0 +1,39 @@
+{
+  "tenant": "ember",
+  "cutoff": "2026-01-01T00:00:00Z",
+  "events": [
+    {
+      "id": "e03",
+      "tenant": "ember",
+      "subject": "user-01",
+      "role": "audit-reader",
+      "at": "2026-01-06T00:00:00Z",
+      "kind": "grant"
+    },
+    {
+      "id": "e02",
+      "tenant": "ember",
+      "subject": "user-01",
+      "role": "audit-reader",
+      "at": "2026-01-06T00:00:00Z",
+      "kind": "revoke"
+    },
+    {
+      "id": "e01",
+      "tenant": "ember",
+      "subject": "user-01",
+      "role": "audit-reader",
+      "at": "2026-01-03T00:00:00Z",
+      "kind": "approve"
+    },
+    {
+      "id": "e00",
+      "tenant": "ember",
+      "subject": "user-01",
+      "role": "audit-reader",
+      "at": "2026-01-03T00:00:00Z",
+      "kind": "grant"
+    }
+  ],
+  "expected": []
+}
